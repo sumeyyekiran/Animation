@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp">
+
+
+    <TextView
+        android:text="Ripple Effect with Border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvRippleEffectwithBorder"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_marginBottom="10dp"
+        android:textSize="22sp" />
+
+    <TextView
+        android:text="Ripple Effect without Border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvRippleEffectwithoutBorder"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:layout_marginBottom="10dp"
+        android:textSize="22sp" />
+
+    <TextView
+        android:text="Custom Ripple with Border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/ripplefile"
+        android:textSize="22sp"
+        android:id="@+id/tvCustomRippleWithBorder" />
+
+    <TextView
+        android:text="Custom ripple without Border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/ripplewithout"
+        android:textSize="22sp"
+        android:id="@+id/tvCustomRippleWithoutBorder" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EXPLODE JAVA"
+            android:layout_weight="1"
+            android:id="@+id/btnExplodeJava"
+            android:layout_marginRight="10dp"
+            />
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SLIDE XML"
+            android:layout_marginRight="10dp"
+            android:id="@+id/btnSlideXML"
+            />
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Fade XML"
+            android:layout_marginRight="10dp"
+            android:id="@+id/btnFadeXML"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
